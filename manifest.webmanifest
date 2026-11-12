@@ -1,0 +1,19 @@
+{
+  "name": "PhysicsSimAI+ Pecutan SPM",
+  "short_name": "PhysicsSimAI+",
+  "description": "Pecutan Terakhir SPM Fizik 4531: Kertas 1 & 2, nota infografik, simulator dan aplikasi kejuruteraan. Disediakan oleh Ir. Ts. Dr. Muhammad Hafiz HASSAN, USM.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EEF1F6",
+  "theme_color": "#2E1A63",
+  "lang": "ms",
+  "categories": ["education"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
