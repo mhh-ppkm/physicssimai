@@ -1,19 +1,21 @@
-PhysicsSimAI+ Pecutan SPM — pakej aplikasi luar talian (PWA)
+PhysicsSimAI+ Pecutan SPM v2026.11.16 — pakej aplikasi luar talian (PWA)
 Disediakan oleh Ir. Ts. Dr. Muhammad Hafiz HASSAN, Pusat Pengajian Kejuruteraan Mekanik, USM
 
-Kandungan:
-  index.html            aplikasi penuh
-  manifest.webmanifest  nama, ikon dan warna aplikasi
-  sw.js                 service worker (simpan untuk luar talian)
-  icons/                ikon 180, 192, 512 dan maskable
+Baharu dalam versi ini:
+ - Tab "Makmal Elektronik": 18 eksperimen litar maya dalam 5 pelajaran
+   (Asas, Perintang, Kapasitor, Diod & Transistor, Penderia).
+ - Kemas kini automatik: telefon pelajar mengambil versi terbaharu sendiri.
 
-Cara pasang di GitHub Pages (sama seperti MathSimAI+):
- 1. Cipta repo baharu: mhh-ppkm/physicssimai-plus (Public).
- 2. Upload SEMUA fail di atas, kekalkan folder icons/.
- 3. Settings > Pages > Branch: main / (root) > Save.
- 4. Buka https://mhh-ppkm.github.io/physicssimai-plus/ dalam Chrome (Android) atau Safari (iPhone).
- 5. Tekan "Pasang aplikasi" (Android) atau Kongsi > Add to Home Screen (iPhone).
- 6. Buka sekali semasa ada internet; selepas itu semua tab berfungsi tanpa internet.
+Fail (letak SEMUA di folder utama repo, tiada subfolder):
+  index.html, manifest.webmanifest, sw.js,
+  icon-192.png, icon-512.png, maskable-512.png, apple-touch-icon.png
 
-Kemas kini: tukar VERSION dalam sw.js (contoh physicssimai-plus-v2) setiap kali index.html diubah,
-supaya telefon pelajar memuat turun versi baharu.
+Cara kemas kini di GitHub (mhh-ppkm/physicssimai-plus):
+ 1. Add file > Upload files > seret semua fail > Commit changes (gantikan fail lama).
+ 2. Tunggu 1–2 minit untuk GitHub Pages dikemas kini.
+ 3. Siap. Pelajar TIDAK perlu pasang semula. Apabila aplikasi dibuka dengan internet,
+    ia menyemak versi baharu, memaparkan "Versi baharu dipasang" dan memuat semula sendiri.
+    Jika jam peperiksaan sedang berjalan, butang "Muat semula" dipaparkan dan tidak dimuat semula secara paksa.
+ 4. Tanpa internet, versi terakhir yang disimpan terus berfungsi.
+
+Kemas kini akan datang: cukup gantikan index.html sahaja. Tiada nombor versi perlu ditukar dalam sw.js.
